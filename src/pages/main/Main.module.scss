@@ -1,0 +1,44 @@
+.main{
+.mainTop{
+    display: flex;
+    justify-content: space-between;
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            margin: 0;
+        }
+        div{
+            position: relative;
+            border: 1px solid #F3F3F3;
+            border-radius: 10px;
+            padding: 0 15px;
+            input{
+                border: 0;
+                padding:13px ;
+                font-size: 16px;
+                width: 200px;
+                &:focus{
+                    outline: none;
+                }
+            }
+        }      
+    }
+    .sneakers{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        width: 100%;
+        justify-items: center;
+        .loadedItem{
+            background: #FFFFFF;
+            border: 1px solid #F3F3F3;
+            border-radius: 40px;
+            height: 260px;
+            width: 210px;
+            padding: 22px 28px 32px 31px;
+            
+        }
+    }   
+}

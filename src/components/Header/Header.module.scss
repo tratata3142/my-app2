@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 63px 44px 45px;
+    .left{
+        display: flex;
+        h1{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+            margin: 0;
+        }
+        p{
+            font-size: 14px;
+            line-height: 17px;
+            color: #9D9D9D;
+            margin: 0;
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        p{
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+        .cart{
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}

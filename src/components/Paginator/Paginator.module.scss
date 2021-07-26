@@ -1,0 +1,19 @@
+.paginator{
+    display: flex;
+    margin: 25px auto;
+    justify-content: flex-start;
+
+    .page{
+        padding: 7px 10px;
+        border: 1px solid #a5a4a4;
+        color: #a5a4a4;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+
+        &.active{
+            border: 1px solid #272626;
+            color: #272626;
+        }
+    }
+}

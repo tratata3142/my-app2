@@ -1,0 +1,52 @@
+.sneakersItem{
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    border-radius: 40px;
+    width: 210px;
+    padding: 22px 28px 32px 31px; 
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    }
+    .top{
+        position: relative;
+        .sneakersImg{
+            width: 133px;
+            height: 112px;
+        }
+        svg{
+            position: absolute;
+            cursor: pointer;
+        }
+    }
+    p{
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-top: 14px;
+    }
+    .bottom{
+        margin-top: 14px;
+        display: flex;
+        justify-content: space-between;
+        .price{
+            div{
+           font-size: 11px;
+            line-height: 13px;
+            text-transform: uppercase;
+            width: 500;
+            color: #BDBDBD; 
+            }
+            b{
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+            }        
+        } 
+        img{
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }             
+    }
+}
