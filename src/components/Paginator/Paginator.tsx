@@ -17,8 +17,8 @@ const Paginator = () => {
         pages.push(i+1)
     }
     const onChangePage=(page:number)=>{  
-        setcurrentPage(page)
         dispatch(fetchSneakers(page,limit))
+        setcurrentPage(page)
     }
    
     return (
